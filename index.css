@@ -1,0 +1,49 @@
+body{
+    background-color: #9BA8AB;
+}
+
+.nav-tag{
+    background-color: #11212D;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-logo{
+    text-align: left;
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+}
+
+#logo{
+    width: 50px;
+    height: 50px;
+
+}
+
+.navbar-li{
+    text-align: right;
+    display: inline;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.navbar-li a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-li a:hover, .navbar-logo:hover{
+    color: lightgray;
+}
+
+.footer{
+    background-color: #253745;
+    position: absolute;
+    bottom: 0;
+    height: 20%;
+    width: 100%;
+}
