@@ -1,7 +1,14 @@
-body{
+html, body{
     background-color: #9BA8AB;
+    height: 100%;
+    margin: 0;
+}
+.wrapper{
+    min-height: 100%;
+    margin-bottom: -190px;
 }
 
+ /*CSS para el navbar*/
 .nav-tag{
     background-color: #11212D;
     margin: 0;
@@ -10,51 +17,95 @@ body{
     justify-content: space-between;
     align-items: center;
 }
-
 .navbar-logo{
     text-align: left;
     color: white;
     font-size: 25px;
     padding: 10px;
 }
-
 #logo{
     width: 50px;
     height: 50px;
 
 }
-
 .navbar-li{
     text-align: right;
     display: inline;
     font-size: 25px;
     padding: 10px;
 }
-
 .navbar-li a{
     text-decoration: none;
     color: white;
 }
-
 .navbar-li a:hover, .navbar-logo:hover{
     color: lightgray;
 }
 
+/*CSS para el body (presentacion)*/
+.myself{
+    background-color: #253745;
+    display: block;
+    padding: 40px;
+}
+#name{
+    color: #CCD0CF;
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+
+}
+#description{
+    color: #CCD0CF;
+    font-size: 30px;
+    width: 100%;
+    padding: 10px;
+}
+
+/*CSS para el body (mis proyectos)*/
+.title-proyects{
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+}
+
+/*CSS para las cartas de los proyectos*/
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    width: 30%;
+    margin: 10px;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.281);
+}
+.container {
+    padding: 2px 16px;
+}
+.imgn {
+    border-radius: 10px 10px 0 0;
+    width: 20px;
+    height: 20px;
+}
+
+/*CSS para el footer*/
+.push{
+    height: 190px;
+}
 .footer{
     background-color: #253745;
-    position: absolute;
-    bottom: 0;
-    height: 20%;
+    height: 190px;
     width: 100%;
-    display: block;
+    /*display: block;*/
     text-align: center;
 }
 
 #photo-cool{
     border-radius: 50%;
     margin-top: 10px;
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
 }
 
 .footer-icons img{
