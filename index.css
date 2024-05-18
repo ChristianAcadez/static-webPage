@@ -46,4 +46,18 @@ body{
     bottom: 0;
     height: 20%;
     width: 100%;
+    display: block;
+    text-align: center;
+}
+
+#photo-cool{
+    border-radius: 50%;
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.footer-icons img{
+    width: 60px;
+    height: 60px;
 }
