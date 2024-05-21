@@ -70,23 +70,60 @@ html, body{
 }
 
 /*CSS para las cartas de los proyectos*/
+.row-cards{
+    display: flex;
+    justify-content: center;
+}
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7);
     transition: 0.3s;
-    border-radius: 5px;
-    width: 30%;
-    margin: 10px;
+    border-radius: 10px;
+    width: 25%;
+    margin: 30px;
 }
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.281);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
 }
 .container {
     padding: 2px 16px;
 }
-.imgn {
+.card-image {
     border-radius: 10px 10px 0 0;
-    width: 20px;
-    height: 20px;
+    width: 100%;
+}
+.tittle-cards{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+.text-cards{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+
+}
+.info-cards{
+    font-size: 90%;
+    color: black;
+    text-align: center;
+    width: 90%;
+}
+.buttons{
+    text-align: center;
+}
+.button-cards{
+    background-color: #4f9e9e;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 45%;
+    margin: 5px;
+
 }
 
 /*CSS para el footer*/
