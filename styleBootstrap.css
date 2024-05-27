@@ -1,0 +1,94 @@
+html, body{
+    background: linear-gradient(#b695c0, #dac9df);
+}
+.carrusel{
+    margin: auto;
+    width: 80%;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+/*cartas*/
+.cartas{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.carta{
+    margin: 20px;
+    width: 25%;
+    height: 30%;
+    text-align: center;
+}
+.carta:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+}
+
+/*POPUPS*/
+.overlay { 
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .overlay:target{
+    visibility: visible;
+    opacity: 1;
+  }
+  #popupBody{
+    width: 46%;
+    padding: 2%;
+    border-radius: 15px;
+    box-shadow: 0 0 5px #CCC;
+    background: #FFF;
+    position: relative;
+    margin: 5% auto;
+    transition: all 2s ease-in-out;
+    scroll-snap-stop: always;
+}
+.carrusel{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+#cerrar{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 30px;
+    fotn-weight: bold;
+    text-decoration: none;
+    color: #F00;
+    transition: all 200ms;
+}
+
+/*footer*/
+.push{
+    height: 100px;
+}
+.footer{
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+}
+.footer h2{
+    margin: 0%;
+}
+#photo-cool{
+    border-radius: 50%;
+    margin-top: 10px;
+    width: 90px;
+    height: 90px;
+}
+.footer-icons img{
+    width: 60px;
+    height: 60px;
+}

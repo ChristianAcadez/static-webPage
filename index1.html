@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styleBootstrap.css">
+    <link rel="icon" href="./assets/icon/favicon-16x16.png" type="image/x-icon">
+    <title>bootstrap</title>
+</head>
+<body>
+    <!-- Navbar-->
+    <nav class="navbar bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="./assets/icon/favicon-32x32.png" alt="MrKuris" width="30" height="24">
+          </a>
+          <div class="container-fluidnavbar navbar-expand-lg bg-body-tertiary">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Carousel -->
+      <div class="carrusel">
+        <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://wallpapers-clan.com/wp-content/uploads/2023/11/cool-vaporwave-art-desktop-wallpaper-preview.jpg" class="d-block w-100 img-fluid" alt="Divinite">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://wallpapers-clan.com/wp-content/uploads/2023/11/cool-vaporwave-art-desktop-wallpaper-preview.jpg" class="d-block w-100 img-fluid" alt="20%">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://wallpapers-clan.com/wp-content/uploads/2023/11/cool-vaporwave-art-desktop-wallpaper-preview.jpg" class="d-block w-100 img-fluid" alt="20%">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://wallpapers-clan.com/wp-content/uploads/2023/11/cool-vaporwave-art-desktop-wallpaper-preview.jpg" class="d-block w-100 img-fluid" alt="20%">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Fourth slide label</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Cards -->
+      <div class="cartas">
+        <div class="card carta carta1">
+          <img src="./assets/projects/diviniteF.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Divinite beauty spa</h5>
+            <p class="card-text"><b>Tecnologias: </b> HTML, CSS, JavaScript, Java, Springboot, MySQL.</p>
+            <a href="#popup1" class="btn btn-primary">Mas informacion</a>
+          </div>
+        </div>
+        <div class="card carta carta2">
+          <img src="./assets/projects/diviniteF.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Encriptador</h5>
+            <p class="card-text"><b>Tecnologias: </b> HTML, CSS, JavaScript.</p><br>
+            <a href="#popup2" class="btn btn-primary">Mas informacion</a>
+          </div>
+        </div>
+        <div class="card carta carta3">
+          <img src="./assets/projects/diviniteF.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Weather App</h5>
+            <p class="card-text"><b>Tecnologias: </b> HTML, CSS, JavaScript.</p><br>
+            <a href="#popup3" class="btn btn-primary">Mas informacion</a>
+          </div>
+        </div>
+        <div class="card carta carta4">
+          <img src="./assets/projects/diviniteF.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text"><b>Tecnologias: </b> HTML, CSS, JavaScript.</p><br>
+            <a href="#popup4" class="btn btn-primary">Mas informacion</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Popups -->
+      <div id="popup1" class="overlay">
+        <div id="popupBody">
+            <div class="carrusel">
+                <img class="carrusel-images" src="./assets/projects/diviniteF.png" height="100%" width="100%">
+            </div>
+            <p class="tittle-cards">Beauty Spa Divinite</p>
+            <br>
+            <a id="cerrar" href="#carta1">&times;</a>
+            <div class="popupContent">
+                <p class="text-cards">Aplicacion web creada para un beauty spa, en este se puede agendar citas, crear cuentas en donde despues de acumular cierta cantidad de citas se te regalara algun servicio, puedes ver el catalogo, la ubicacion, etc.</p>
+                <br><br>
+                <a href="https://github.com/ChristianAcadez/Divinite-frontend" class="btn btn-primary">codigo del frontend</a>
+                <a href="https://github.com/ChristianAcadez/Divinite-backend" class="btn btn-primary">codigo de backend</a>
+            </div>
+        </div>
+    </div>
+      <div id="popup2" class="overlay">
+        <div id="popupBody">
+            <div class="carrusel">
+                <img class="carrusel-images" src="./assets/projects/encriptador.png" height="100%" width="100%">
+            </div>
+            <p class="tittle-cards">Encriptador</p>
+            <br>
+            <a id="cerrar" href="#carta2">&times;</a>
+            <div class="popupContent">
+                <p class="text-cards">Pagina web para encriptar y desencriptar texto de forma sencilla, utiliza HTML, CSS y JavaScript</p>
+                <br><br>
+                <a href="https://github.com/ChristianAcadez/Encriptador" class="btn btn-primary">codigo del proyecto</a>
+                <a href="https://christianacadez.github.io/Encriptador/" class="btn btn-primary">proyecto desplegado</a>
+            </div>
+        </div>
+    </div>
+    <div id="popup3" class="overlay">
+        <div id="popupBody">
+            <div class="carrusel">
+                <img class="carrusel-images" src="./assets/projects/appClima.png" height="90%" width="95%">
+            </div>
+            <p class="tittle-cards">Weather App</p>
+            <br>
+            <a id="cerrar" href="#carta3">&times;</a>
+            <div class="popupContent">
+                <p class="text-cards">Pagina web para verificar el clima, se ingresa la localizacón que deseas verificar y consume una api para despues devolver el clima, utilizando HTML, CSS y mayormente JavaScript</p>
+                <br><br>
+                <a href="https://github.com/ChristianAcadez/WeatherApp" class="btn btn-primary">codigo del proyecto</a>
+                <a href="https://christianacadez.github.io/WeatherApp/" class="btn btn-primary">proyecto desplegado</a>
+            </div>
+        </div>
+    </div>
+    <div id="popup4" class="overlay">
+        <div id="popupBody">
+            <div class="carrusel">
+                <img class="carrusel-images" src="./assets/projects/flappyBirds.png" height="100%" width="100%">
+            </div>
+            <p class="tittle-cards">Flappy birds</p>
+            <br>
+            <a id="cerrar" href="#carta4">&times;</a>
+            <div class="popupContent">
+                <p class="text-cards">Pagina web recreando el mitico juego de flappy birds, utilizando mayormente Javascript, pero tambien HTML y CSS</p>
+                <br><br>
+                <a href="https://github.com/ChristianAcadez/FlappyBirds-Js" class="btn btn-primary">codigo del proyecto</a>
+                <a href="https://christianacadez.github.io/FlappyBirds-Js/" class="btn btn-primary">proyecto desplegado</a>
+            </div>
+        </div>
+    </div>
+
+      <!-- Footer -->
+      <div class="push"></div>
+      <footer class="footer">
+        <img id="photo-cool" src="./assets/cool.jpeg">
+        <h2>MrKuris</h2>
+        <div class="footer-icons-div">
+            <a class="footer-icons" href="https://github.com/ChristianAcadez"><img src="./assets/redes/github.png"></a>
+            <!--<a class="footer-icons" href="#"><img src="./assets/redes/youtube.png"></a>-->
+            <a class="footer-icons" href="https://linkedin.com/in/christian-alejandro-castillo-hernández"><img src="./assets/redes/linkedin.png"></a>
+        </div>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</html>
