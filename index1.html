@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="general.css"><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="styleBootstrap.css">
     <link rel="icon" href="./assets/icon/favicon-16x16.png" type="image/x-icon">
     <title>bootstrap</title>
@@ -13,7 +13,7 @@
     <!-- Navbar-->
     <nav class="navbar bg-body-tertiary">
         <div class="container">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="index1.html">
             <img src="./assets/icon/favicon-32x32.png" alt="MrKuris" width="30" height="24">
           </a>
           <div class="container-fluidnavbar navbar-expand-lg bg-body-tertiary">
@@ -23,7 +23,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <a class="nav-link" href="index1.html">Home</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">Blog</a>
@@ -87,6 +87,24 @@
         </div>
       </div>
 
+      <!-- About ME -->
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="display-4">Christian Alejandro Castillo Hernandez</h1>
+            <p class="lead">Experiencia como desarollador Backend en una empresa internacional. Una gran curiosidad por aprender cosas nuevas por mi mismo. Capaz en lenguajes de Programación Orientada a Objetos (POO) como Java y Python y otros lenguajes como JavaScript. Conocimientos en estructuras de datos, administración de servidores linux, bases de datos relacionales (MySQL), bases de datos no-relacionales (MongoDB), y experiencia en otras tecnologías como creación de stress test con JMeter, Automatización de los stress tests con Jenkins, Monitoreo de redes con Zabbix y herramientas SIEM (Splunk).</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <h2>Tech Skills:</h2>
+          </div>
+          <div class="col-6">
+            <h2>Soft Skills:</h2>
+          </div>
+        </div>
+      </div>
+
       <!-- Cards -->
       <div class="cartas">
         <div class="card carta carta1">
@@ -116,7 +134,7 @@
         <div class="card carta carta4">
           <img src="./assets/projects/diviniteF.png" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title">Flappy birds</h5>
             <p class="card-text"><b>Tecnologias: </b> HTML, CSS, JavaScript.</p><br>
             <a href="#popup4" class="btn btn-primary">Mas informacion</a>
           </div>
@@ -126,14 +144,14 @@
       <!-- Popups -->
       <div id="popup1" class="overlay">
         <div id="popupBody">
-            <div class="carrusel">
-                <img class="carrusel-images" src="./assets/projects/diviniteF.png" height="100%" width="100%">
+            <div class="card-image">
+                <img src="./assets/projects/diviniteF.png" height="100%" width="100%">
             </div>
-            <p class="tittle-cards">Beauty Spa Divinite</p>
+            <h2>Beauty Spa Divinite</h2>
             <br>
             <a id="cerrar" href="#carta1">&times;</a>
             <div class="popupContent">
-                <p class="text-cards">Aplicacion web creada para un beauty spa, en este se puede agendar citas, crear cuentas en donde despues de acumular cierta cantidad de citas se te regalara algun servicio, puedes ver el catalogo, la ubicacion, etc.</p>
+                <p>Aplicacion web creada para un beauty spa, en este se puede agendar citas, crear cuentas en donde despues de acumular cierta cantidad de citas se te regalara algun servicio, puedes ver el catalogo, la ubicacion, etc.</p>
                 <br><br>
                 <a href="https://github.com/ChristianAcadez/Divinite-frontend" class="btn btn-primary">codigo del frontend</a>
                 <a href="https://github.com/ChristianAcadez/Divinite-backend" class="btn btn-primary">codigo de backend</a>
@@ -142,14 +160,14 @@
     </div>
       <div id="popup2" class="overlay">
         <div id="popupBody">
-            <div class="carrusel">
-                <img class="carrusel-images" src="./assets/projects/encriptador.png" height="100%" width="100%">
+            <div class="card-image">
+                <img src="./assets/projects/encriptador.png" height="100%" width="100%">
             </div>
-            <p class="tittle-cards">Encriptador</p>
+            <h2>Encriptador</h2>
             <br>
             <a id="cerrar" href="#carta2">&times;</a>
             <div class="popupContent">
-                <p class="text-cards">Pagina web para encriptar y desencriptar texto de forma sencilla, utiliza HTML, CSS y JavaScript</p>
+                <p>Pagina web para encriptar y desencriptar texto de forma sencilla, utiliza HTML, CSS y JavaScript</p>
                 <br><br>
                 <a href="https://github.com/ChristianAcadez/Encriptador" class="btn btn-primary">codigo del proyecto</a>
                 <a href="https://christianacadez.github.io/Encriptador/" class="btn btn-primary">proyecto desplegado</a>
@@ -158,15 +176,14 @@
     </div>
     <div id="popup3" class="overlay">
         <div id="popupBody">
-            <div class="carrusel">
-                <img class="carrusel-images" src="./assets/projects/appClima.png" height="90%" width="95%">
+            <div class="card-image">
+                <img src="./assets/projects/appClima.png" height="90%" width="95%">
             </div>
-            <p class="tittle-cards">Weather App</p>
+            <h2>Weather App</h2>
             <br>
             <a id="cerrar" href="#carta3">&times;</a>
             <div class="popupContent">
-                <p class="text-cards">Pagina web para verificar el clima, se ingresa la localizacón que deseas verificar y consume una api para despues devolver el clima, utilizando HTML, CSS y mayormente JavaScript</p>
-                <br><br>
+                <p>Pagina web para verificar el clima, se ingresa la localizacón que deseas verificar y consume una api para despues devolver el clima, utilizando HTML, CSS y mayormente JavaScript</p>
                 <a href="https://github.com/ChristianAcadez/WeatherApp" class="btn btn-primary">codigo del proyecto</a>
                 <a href="https://christianacadez.github.io/WeatherApp/" class="btn btn-primary">proyecto desplegado</a>
             </div>
@@ -174,15 +191,14 @@
     </div>
     <div id="popup4" class="overlay">
         <div id="popupBody">
-            <div class="carrusel">
-                <img class="carrusel-images" src="./assets/projects/flappyBirds.png" height="100%" width="100%">
+            <div class="card-image">
+                <img src="./assets/projects/flappyBirds.png" height="100%" width="100%">
             </div>
-            <p class="tittle-cards">Flappy birds</p>
+            <h2>Flappy birds</h2>
             <br>
             <a id="cerrar" href="#carta4">&times;</a>
             <div class="popupContent">
-                <p class="text-cards">Pagina web recreando el mitico juego de flappy birds, utilizando mayormente Javascript, pero tambien HTML y CSS</p>
-                <br><br>
+                <p>Pagina web recreando el mitico juego de flappy birds, utilizando mayormente Javascript, pero tambien HTML y CSS</p>
                 <a href="https://github.com/ChristianAcadez/FlappyBirds-Js" class="btn btn-primary">codigo del proyecto</a>
                 <a href="https://christianacadez.github.io/FlappyBirds-Js/" class="btn btn-primary">proyecto desplegado</a>
             </div>
@@ -195,9 +211,9 @@
         <img id="photo-cool" src="./assets/cool.jpeg">
         <h2>MrKuris</h2>
         <div class="footer-icons-div">
-            <a class="footer-icons" href="https://github.com/ChristianAcadez"><img src="./assets/redes/github.png"></a>
+            <a class="footer-icons" href="https://github.com/ChristianAcadez" target="_blank"><img src="./assets/redes/github.png"></a>
             <!--<a class="footer-icons" href="#"><img src="./assets/redes/youtube.png"></a>-->
-            <a class="footer-icons" href="https://linkedin.com/in/christian-alejandro-castillo-hernández"><img src="./assets/redes/linkedin.png"></a>
+            <a class="footer-icons" href="https://linkedin.com/in/christian-alejandro-castillo-hernández" target="_blank"><img src="./assets/redes/linkedin.png"></a>
         </div>
     </footer>
 </body>

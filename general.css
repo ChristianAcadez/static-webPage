@@ -1,0 +1,28 @@
+html, body{
+    background: linear-gradient(#b695c0, #dac9df);
+}
+
+/*footer*/
+.push{
+    height: 100px;
+}
+.footer{
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+}
+.footer h2{
+    margin: 0%;
+}
+#photo-cool{
+    border-radius: 50%;
+    margin-top: 10px;
+    width: 90px;
+    height: 90px;
+}
+.footer-icons img{
+    width: 60px;
+    height: 60px;
+}
