@@ -96,6 +96,41 @@
 #others li, #languages li, #soft li{
     padding-bottom: 3px;
 }
+.wrapperContact{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    border: 2px green solid;
+    margin: 20px;
+    padding: 20px;
+}
+#coursesTitle, #contactTitle{
+    grid-column: 1/3;
+    grid-row: 1;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+}
+.contactInfo{
+    grid-column: 1;
+    grid-row: 2;
+    font-size: 25px;
+}
+.contactInfo ul, .coursesInfo ul{
+    margin: 20px;
+}
+.contactInfo li, .coursesInfo li{
+    padding-bottom: 3px;
+}
+.coursesInfo{
+    grid-column: 2;
+    grid-row: 2;
+    font-size: 25px;
+}
+#courses, #contact{
+    margin: auto;
+}
 .wrapperProjects{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
